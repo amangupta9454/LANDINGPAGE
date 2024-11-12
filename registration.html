@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="doctor.html">Doctor's</a></li>
+          <li><a href="specialists.html">Speciality's</a></li>
+          <li><a href="patientreview.html">Patient Reviews</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+          <li><a href="registration.html">Registration Form</a></li>
+        </ul>
+      </nav>
+    <div class="reg">
+        <h2>Registration</h2>
+        <label for="aman">Enter Your Name</label>
+        <input type="text" name="" id="aman" placeholder="name">
+        <br>
+        <label for="anshu">Mobile no</label>
+        <input type="number" name="" id="anshu" placeholder="Mobile">
+        <br>
+        <label for="a1">Enter Your Email</label>
+        <input type="email" name="" id="a1" placeholder="Enter your email">
+        <br>
+        <label for="gender">Select Gender:</label>
+        <select id="gender" name="gender">
+            <option value="">--Please choose an option--</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="prefer-not-to-say">Prefer not to say</option>
+        </select>
+        <br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" required>
+        <br>
+        <label for="medical">Select Reason:</label>
+        <select id="medical" name="medical">
+            <option value="">Select</option>
+            <option value="Gaiconology">Gaiconology</option>
+            <option value="Tumor">Tumor</option>
+            <option value="Cancer">Cancer</option>
+            <option value="Asthma">Asthma</option>
+            <option value="Influenza">Influenza</option>
+            <option value="Tuberculosis">Tuberculosis</option>
+           
+        </select>
+        <br>
+        <label for="text">Enter Reason</label>
+        <textarea name="text" id="text" width="5px"></textarea>
+        <button type="submit">Submit</button>
+    </div>
+    
+</body>
+</html>
